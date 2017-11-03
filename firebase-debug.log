@@ -1,0 +1,78 @@
+[debug] [2017-11-03T13:00:13.144Z] ----------------------------------------------------------------------
+[debug] [2017-11-03T13:00:13.146Z] Command:       /usr/local/Cellar/node/8.9.0/bin/node /usr/local/bin/firebase serve
+[debug] [2017-11-03T13:00:13.146Z] CLI Version:   3.14.0
+[debug] [2017-11-03T13:00:13.146Z] Platform:      darwin
+[debug] [2017-11-03T13:00:13.146Z] Node Version:  v8.9.0
+[debug] [2017-11-03T13:00:13.147Z] Time:          Fri Nov 03 2017 18:30:13 GMT+0530 (IST)
+[debug] [2017-11-03T13:00:13.147Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-03T13:00:13.157Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-03T13:00:13.158Z] > authorizing via signed-in user
+[debug] [2017-11-03T13:00:13.159Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-03T13:00:13.159Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/bkr2iVlsGXg7JkMXlLCGzm_tFIz3T3KoUYvskUafzws',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Nov 03 2017 18:30:13 GMT+0530 (IST)
+[debug] [2017-11-03T13:00:13.344Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-03T13:00:13.352Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/btc-wallet2  
+ Fri Nov 03 2017 18:30:13 GMT+0530 (IST)
+[debug] [2017-11-03T13:00:14.711Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-03T13:00:14.712Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/btc-wallet2/tokens  
+ Fri Nov 03 2017 18:30:14 GMT+0530 (IST)
+[debug] [2017-11-03T13:00:15.820Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/devashishsood/GithubTest/btc-wallet2'...
+[info] 
+[debug] [2017-11-03T13:00:15.823Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/btc-wallet2  
+ Fri Nov 03 2017 18:30:15 GMT+0530 (IST)
+[debug] [2017-11-03T13:00:17.145Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-03T13:00:17.145Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/481318202995/clients/_:getWebAppConfig  
+ Fri Nov 03 2017 18:30:17 GMT+0530 (IST)
+[debug] [2017-11-03T13:00:18.591Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-03T13:00:18.617Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-11-03T13:01:38.114Z] ----------------------------------------------------------------------
+[debug] [2017-11-03T13:01:38.116Z] Command:       /usr/local/Cellar/node/8.9.0/bin/node /usr/local/bin/firebase serve
+[debug] [2017-11-03T13:01:38.116Z] CLI Version:   3.14.0
+[debug] [2017-11-03T13:01:38.116Z] Platform:      darwin
+[debug] [2017-11-03T13:01:38.116Z] Node Version:  v8.9.0
+[debug] [2017-11-03T13:01:38.117Z] Time:          Fri Nov 03 2017 18:31:38 GMT+0530 (IST)
+[debug] [2017-11-03T13:01:38.117Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-03T13:01:38.127Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-03T13:01:38.128Z] > authorizing via signed-in user
+[debug] [2017-11-03T13:01:38.130Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/btc-wallet2  
+ Fri Nov 03 2017 18:31:38 GMT+0530 (IST)
+[debug] [2017-11-03T13:01:39.309Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-03T13:01:39.310Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/btc-wallet2/tokens  
+ Fri Nov 03 2017 18:31:39 GMT+0530 (IST)
+[debug] [2017-11-03T13:01:40.375Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/devashishsood/GithubTest/btc-wallet2'...
+[info] 
+[debug] [2017-11-03T13:01:40.378Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/btc-wallet2  
+ Fri Nov 03 2017 18:31:40 GMT+0530 (IST)
+[debug] [2017-11-03T13:01:41.838Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-03T13:01:41.839Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/481318202995/clients/_:getWebAppConfig  
+ Fri Nov 03 2017 18:31:41 GMT+0530 (IST)
+[debug] [2017-11-03T13:01:42.461Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-03T13:01:42.474Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
